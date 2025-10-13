@@ -1,83 +1,79 @@
 
-#hour = int(input("Введите число (0/23): "))
+#hour = int(input("Sisesta tund (0–23): "))
 
-#if hour <6:
-  #  print("Ночь")
-#elif hour <12:
-  #  print("утро")
-#elif hour <18:
-  #  print("День")
+#if hour < 6:
+#    print("Öö")
+#elif hour < 12:
+#    print("Hommik")
+#elif hour < 18:
+#    print("Päev")
 #else:
-   # print("вечер")
+#    print("Õhtu")
 
 
 
-
-#preference = input("Kuum/külm")
+#preference = input("Kuum/külm: ")
 
 #if preference == "Kuum":
-   #tuup = input("tee/kohvi")
-  # if tuup == "tee":
-  #  print("Valmistamine teed")
-  # else:
-  #  print("Valmistamine kohvi")
+#    tuup = input("Tee/kohv: ")
+#    if tuup == "tee":
+#        print("Tee valmistamine")
+#    else:
+#        print("Kohvi valmistamine")
 #else:
-  # print("Limonnad")
+#    print("Limonaad")
 
 
 
-
-
-#color = input("sisesta värva: ")
+#color = input("Sisesta värv: ")
 
 #if color == "punane":
-  #  print("Ere")
+#    print("Hele")
 #elif color == "sinine":
-   # print("Rahulik")
+#    print("Rahulik")
 #else:
-  #  print("Tavaline")
+#    print("Tavaline")
 
 
 
-
-
-#transport = input("Sisesta transporte (buss/jalgsi): ")
-#weather = input("Sisesta weather (vihm/päike):")
+#transport = input("Sisesta transport (buss/jalgsi): ")
+#weather = input("Sisesta ilm (vihm/päike): ")
 
 #if transport == "buss" and weather == "vihm":
- #   print("едем на автобусе")
+#    print("Sõidame bussiga")
 
 #elif transport == "buss" and weather == "päike":
- #   print("едем на автобусе с удобством")
+#    print("Sõidame mugavalt bussiga")
 
 #elif transport == "jalgsi" and weather == "vihm":
- #   print("берем зонт")
+#    print("Võtame vihmavarju")
 
 #else:
-    #print("идем пешком")
+#    print("Läheme jalgsi")
 
 
 
-#type = input("Выбери фрукт (puuvili/köögivili): ")
-#taste = input("Выбери вкус (magus/hapu/другой)")
+#type = input("Vali vili (puuvili/köögivili): ")
+#taste = input("Vali maitse (magus/hapu/muu): ")
 
 #if type == "puuvili" and taste == "magus":
-  #  print("Söödav puuvili")
+#    print("Söödav puuvili")
 
 #elif type == "puuvili" and taste == "hapu":
-  #  print("Vitamiinirikas puuvili")
+#    print("Vitamiinirikas puuvili")
 
-#elif type == "puuvili" and taste == "Другой":
-  #  print("Tavaline puuvili")
+#elif type == "puuvili" and taste == "muu":
+#    print("Tavaline puuvili")
 
 #elif type == "köögivili" and taste == "magus":
-  #  print("Magus köögivili")
+#    print("Magus köögivili")
 
 #elif type == "köögivili" and taste == "hapu":
-   # print("hapu köögivili")
+#    print("Hapu köögivili")
 
 #else:
-   # print("Tavaline köögivili")
+#    print("Tavaline köögivili")
+
 
 
 
